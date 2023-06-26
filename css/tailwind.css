@@ -10,11 +10,13 @@
 }
 
 @font-face {
-  font-family: 'Tele-Marines';
-  /* src: url('https://www.dafont.com/tele-marines.font') format('truetype'); */
-  src: url('/fonts/telemarines1.ttf') format('truetype');
-
-  /* Replace './fonts/tele-marines.ttf' with the correct path to your font file */
+  font-family: "Tele-Marines Expanded"; 
+  src: url("//db.onlinewebfonts.com/t/01a78afe99ea694818028dcc7464ac4a.eot"); 
+  src: url("//db.onlinewebfonts.com/t/01a78afe99ea694818028dcc7464ac4a.eot?#iefix") format("embedded-opentype"), 
+      url("//db.onlinewebfonts.com/t/01a78afe99ea694818028dcc7464ac4a.woff2") format("woff2"), 
+      url("//db.onlinewebfonts.com/t/01a78afe99ea694818028dcc7464ac4a.woff") format("woff"), 
+      url("//db.onlinewebfonts.com/t/01a78afe99ea694818028dcc7464ac4a.ttf") format("truetype"), 
+      url("//db.onlinewebfonts.com/t/01a78afe99ea694818028dcc7464ac4a.svg#Tele-Marines Expanded") format("svg"); 
 }
 
 .tele-marines {
