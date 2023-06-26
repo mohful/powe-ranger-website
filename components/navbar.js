@@ -38,23 +38,23 @@ const Navbar = () => {
                       {theme === 'light' 
                         ? 
                         <Image
-                        src="/logo-black.png"
+                        src="/img/logo-white.png"
                         alt="N"
                         width={300}
                         height={300}
-                        className="w-8"
+                        className=""
                         />
                         :
                         <Image
-                        src="/logo-white.png"
+                        src="/img/logo-black.png"
                         alt="N"
                         width={300}
                         height={300}
-                        className="w-8"
+                        className=""
                         />
                       }
                     </span>
-                    <span className="tele-marines">POWe<span className="text-4xl text-red-500">R</span>ANGeR</span>
+                    {/* <span className="tele-marines">POWe<span className="text-4xl text-red-500">R</span>ANGeR</span> */}
                   </span>
                 </Link>
 
