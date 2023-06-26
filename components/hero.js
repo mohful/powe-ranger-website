@@ -7,11 +7,14 @@ const Hero = () => {
   return (
     <>
       <Container className="flex flex-wrap ">
+          <h1 className="text-4xl xl:text-center font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-7xl xl:leading-tight dark:text-white mx-auto">
+            {/* Precision Redefined */}
+            Efficiency <span className="text-red-500">|</span> Reliability <span className="text-red-500">|</span> Results
+          </h1>
         <div className="flex items-center w-full lg:w-1/2">
+          
           <div className="max-w-2xl mb-8">
-            <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              Free Landing Page Template for startups
-            </h1>
+            
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               Nextly is a free landing page & marketing website
               template for startups and indie projects. Its built with

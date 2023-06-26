@@ -10,22 +10,22 @@ import {
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
+  title: "Precision Redefined",
   desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
   image: PowerImage,
   bullets: [
     {
-      title: "Understand your customers",
+      title: "Fully Autonomous",
       desc: "Then explain the first point breifly in one or two lines.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
+      title: "AI-Powered Analytics",
       desc: "Here you can add the next benefit point.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
+      title: "Smart Mapping",
       desc: "This will be your last bullet point in this section.",
       icon: <CursorArrowRaysIcon />,
     },

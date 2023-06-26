@@ -38,8 +38,8 @@ const Navbar = () => {
                       <Image
                           src="/img/logo-black.png"
                           alt="N"
-                          width={300}
-                          height={300}
+                          width={350}
+                          height={350}
                           className=""
                       />
                       {/* {theme === 'dark' 
