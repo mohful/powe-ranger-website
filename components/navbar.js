@@ -5,7 +5,6 @@ import { Disclosure } from "@headlessui/react";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
-import "../css/tailwind.css"
 
 const Navbar = () => {
 

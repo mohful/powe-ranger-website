@@ -3,7 +3,6 @@ import Image from "next/image";
 import React from "react";
 import Container from "./container";
 import { useTheme } from "next-themes";
-import "../css/tailwind.css"
 
 export default function Footer() {
 
