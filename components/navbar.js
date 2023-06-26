@@ -36,7 +36,7 @@ const Navbar = () => {
                   <span className="flex items-center space-x-2 text-2xl font-medium text-black dark:text-gray-100">
                     <span>
                       <Image
-                          src="/img/logo-black.png"
+                          src="/logo-black.png"
                           alt="N"
                           width={350}
                           height={350}
@@ -61,7 +61,7 @@ const Navbar = () => {
                         />
                       } */}
                     </span>
-                    {/* <span className="tele-marines">POWe<span className="text-4xl text-red-500">R</span>ANGeR</span> */}
+                    <span className="tele-marines">POWe<span className="text-4xl text-red-500">R</span>ANGeR</span>
                   </span>
                 </Link>
 
