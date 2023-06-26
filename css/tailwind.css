@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply dark:bg-trueGray-900;
+  }
+}
+
+@font-face {
+  font-family: 'Tele-Marines';
+  src: url('https://www.dafont.com/tele-marines.font') format('truetype');
+  /* Replace './fonts/tele-marines.ttf' with the correct path to your font file */
+}
+
+.tele-marines {
+  font-family: 'Tele-Marines', sans-serif;
+  /* Additional styles can be added here */
+}
+
+.nav__item-active {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.nav__item-shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
