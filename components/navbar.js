@@ -35,10 +35,10 @@ const Navbar = () => {
                 <Link href="/">
                   <span className="flex items-center space-x-2 text-2xl font-medium text-black dark:text-gray-100">
                     <span>
-                      {theme === 'light' 
+                      {theme === 'dark' 
                         ? 
                         <Image
-                        src="/img/logo-white.png"
+                        src="/img/logo-black.png"
                         alt="N"
                         width={300}
                         height={300}
@@ -46,7 +46,7 @@ const Navbar = () => {
                         />
                         :
                         <Image
-                        src="/img/logo-black.png"
+                        src="/img/logo-white.png"
                         alt="N"
                         width={300}
                         height={300}
