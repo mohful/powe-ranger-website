@@ -11,12 +11,8 @@
 
 @font-face {
   font-family: "Tele-Marines"; 
-  src: url("//db.onlinewebfonts.com/t/01a78afe99ea694818028dcc7464ac4a.eot"); 
-  src: url("//db.onlinewebfonts.com/t/01a78afe99ea694818028dcc7464ac4a.eot?#iefix") format("embedded-opentype"), 
-      url("//db.onlinewebfonts.com/t/01a78afe99ea694818028dcc7464ac4a.woff2") format("woff2"), 
-      url("//db.onlinewebfonts.com/t/01a78afe99ea694818028dcc7464ac4a.woff") format("woff"), 
-      url("//db.onlinewebfonts.com/t/01a78afe99ea694818028dcc7464ac4a.ttf") format("truetype"), 
-      url("//db.onlinewebfonts.com/t/01a78afe99ea694818028dcc7464ac4a.svg#Tele-Marines Expanded") format("svg"); 
+  src: url("//db.onlinewebfonts.com/t/01a78afe99ea694818028dcc7464ac4a.woff2") format("woff2"), 
+      url("//db.onlinewebfonts.com/t/01a78afe99ea694818028dcc7464ac4a.woff") format("woff");
 }
 
 .tele-marines {
