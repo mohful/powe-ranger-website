@@ -5,7 +5,7 @@
 @layer base {
   html,
   body {
-    @apply bg-trueGray-900;
+    @apply dark:bg-trueGray-900;
   }
 }
 
