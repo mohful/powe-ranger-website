@@ -4,5 +4,4 @@ module.exports = {
     defaultLocale: "en",
   },
   output: "standalone",
-  darkMode: true,
 };
