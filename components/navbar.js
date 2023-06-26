@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ThemeChanger from "./DarkSwitch";
+// import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
 import { useTheme } from "next-themes";
@@ -35,7 +35,14 @@ const Navbar = () => {
                 <Link href="/">
                   <span className="flex items-center space-x-2 text-2xl font-medium text-black dark:text-gray-100">
                     <span>
-                      {theme === 'dark' 
+                      <Image
+                          src="/img/logo-black.png"
+                          alt="N"
+                          width={300}
+                          height={300}
+                          className=""
+                      />
+                      {/* {theme === 'dark' 
                         ? 
                         <Image
                         src="/img/logo-black.png"
@@ -52,7 +59,7 @@ const Navbar = () => {
                         height={300}
                         className=""
                         />
-                      }
+                      } */}
                     </span>
                     {/* <span className="tele-marines">POWe<span className="text-4xl text-red-500">R</span>ANGeR</span> */}
                   </span>
@@ -111,7 +118,7 @@ const Navbar = () => {
         </div>
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
 
-          <ThemeChanger />
+          {/* <ThemeChanger /> */}
         </div>
       </nav>
     </div>
