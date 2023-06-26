@@ -1,0 +1,14 @@
+{
+    "headers": [
+      {
+        "source": "./css/tailwind.css",
+        "headers": [
+          {
+            "key": "cache-control",
+            "value": "no-cache"
+          }
+        ]
+      }
+    ]
+  }
+  
