@@ -11,7 +11,8 @@
 
 @font-face {
   font-family: 'Tele-Marines';
-  src: url('https://www.dafont.com/tele-marines.font') format('truetype');
+  src: url("https://fontsforyou.com/fonts/t/TeleMarines.ttf");
+  /* src: url('https://www.dafont.com/tele-marines.font') format('truetype'); */
   /* Replace './fonts/tele-marines.ttf' with the correct path to your font file */
 }
 
