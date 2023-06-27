@@ -1,5 +1,5 @@
 import Link from "next/link";
-// import ThemeChanger from "./DarkSwitch";
+import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
 import { useTheme } from "next-themes";
@@ -45,19 +45,19 @@ const Navbar = () => {
                       {theme === 'dark' 
                         ? 
                         <Image
-                        src="/img/logo-black.png"
+                        src="/logo-white.png"
                         alt="N"
                         width={300}
                         height={300}
-                        className=""
+                        className="w-8"
                         />
                         :
                         <Image
-                        src="/img/logo-white.png"
+                        src="/logo-black.png"
                         alt="N"
                         width={300}
                         height={300}
-                        className=""
+                        className="w-8"
                         />
                       }
                     </span>
