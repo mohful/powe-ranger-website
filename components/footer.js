@@ -24,7 +24,14 @@ export default function Footer() {
               {" "}
               <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-black dark:text-gray-100">
               <span>
-                      {theme === 'light' 
+                  <Image
+                    src="/img/logo-black-2.png"
+                    alt="N"
+                    width={350}
+                    height={350}
+                    className=""
+                  />
+                      {/* {theme === 'light' 
                         ? 
                         <Image
                         src="/logo-black.png"
@@ -41,19 +48,19 @@ export default function Footer() {
                         height={300}
                         className="w-8"
                         />
-                      }
+                      } */}
                     </span>
-                    <span className="tele-marines">POWe<span className="text-4xl text-red-500">R</span>ANGeR</span>
+                    {/* <span className="tele-marines">POWe<span className="text-4xl text-red-500">R</span>ANGeR</span> */}
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
             <a
-                href="https://www.linkedin.com/company/poweranger-ltd/"
+                href="mailto:powerangerofficial@gmail.com"
                 target="_blank"
                 rel="noopener">
-                <span className="sr-only">Linkedin</span>
-                <p className="text-xl">email@gmail.com <br /></p>
+                {/* <span className="sr-only">Linkedin</span> */}
+                <p className="text-xl">powerangerofficial@gmail.com<br /></p>
 
               </a>
             </div>

@@ -5,29 +5,31 @@ import {
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
   SunIcon,
+  CogIcon,
+  MapIcon
 } from "@heroicons/react/24/solid";
 
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Precision Redefined",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Precision",
+  desc: "Embrace the Future of Power Line Assessments with our Autonomous Robot, Powered by AI and Computer Vision Innovations.",
   image: PowerImage,
   bullets: [
     {
       title: "Fully Autonomous",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
+      desc: "Advanced sensors to perceive and understand its surroundings.",
+      icon: <CogIcon />,
     },
     {
       title: "AI-Powered Analytics",
-      desc: "Here you can add the next benefit point.",
+      desc: "High resolution image analysis using Computer Vision.",
       icon: <ChartBarSquareIcon />,
     },
     {
       title: "Smart Mapping",
-      desc: "This will be your last bullet point in this section.",
-      icon: <CursorArrowRaysIcon />,
+      desc: "Autonomous Navigation using GPS.",
+      icon: <MapIcon />,
     },
   ],
 };

@@ -11,7 +11,7 @@ const Breadcrumb = ({
 }) => {
   return (
     <>
-      <section className="relative z-10 overflow-hidden pt-28 lg:pt-[150px]">
+      <section className="relative z-10 overflow-hidden">
         <Container>
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 md:w-8/12 lg:w-7/12">
@@ -20,7 +20,10 @@ const Breadcrumb = ({
                   {pageName}
                 </h1>
                 <p className="text-base font-medium leading-relaxed text-body-color">
-                  {description}
+                  {description} 
+                  <a href="mailto:powerangerofficial@gmail.com" target="_blank" rel="noopener">
+                    <span className="text-red-500 underline">powerangerofficial@gmail.com</span>  
+                  </a>
                 </p>
               </div>
             </div>

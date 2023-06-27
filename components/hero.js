@@ -16,9 +16,10 @@ const Hero = () => {
           <div className="max-w-2xl mb-8">
             
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Nextly is a free landing page & marketing website
-              template for startups and indie projects. Its built with
-              Next.js & TailwindCSS. And its completely open-source.
+            Power line faults significantly contribute to power system unreliability. Manual Inspections are time-consuming, expensive, and disruptive to complex operations. Unscheduled Power Outages from faults leads to production downtime. <br /> <br />
+
+Our goal is to reduce unscheduled power outages caused by power line faults and swiftly detect faults, determine their location and identify causes.
+
             </p>
           </div>
         </div>
