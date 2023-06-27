@@ -36,11 +36,11 @@ const Navbar = () => {
                   <span className="flex items-center space-x-2 text-2xl font-medium text-black dark:text-gray-100">
                     <span>
                       <Image
-                          src="/logo-black.png"
+                          src="/logo-white.png"
                           alt="N"
                           width={350}
                           height={350}
-                          className=""
+                          className="w-8"
                       />
                       {/* {theme === 'dark' 
                         ? 
