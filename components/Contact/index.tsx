@@ -1,5 +1,6 @@
 import React from "react";
 import NewsLatterBox from "./NewsLatterBox";
+import { Button } from "@mui/material";
 
 const Contact = () => {
   return (

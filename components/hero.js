@@ -77,7 +77,7 @@ Our goal is to reduce unscheduled power outages caused by power line faults and 
               <NetflixLogo />
             </div>
             <div className="pt-2 text-gray-400 dark:text-gray-400">
-              {/* <SonyLogo /> */}
+              {/* <Mitacs /> */}
             </div>
           </div>
         </div>

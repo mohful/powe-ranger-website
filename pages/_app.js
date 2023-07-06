@@ -1,11 +1,11 @@
 import { ThemeProvider } from "next-themes";
 import "../css/tailwind.css";
+import { useState } from "react";
 
 function MyApp({ Component, pageProps }) {
-  const [theme, setTheme] = useState("dark");
 
   return (
-    <ThemeProvider themes={theme} defaultTheme="dark" attribute="class">
+    <ThemeProvider defaultTheme="dark" attribute="class">
       <Component {...pageProps} />
     </ThemeProvider>
   );
