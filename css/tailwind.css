@@ -9,6 +9,10 @@
   }
 }
 
+@media(prefers-color-scheme: dark) {
+  
+}
+
 @font-face {
   font-family: "Tele-Marines"; 
   src: url("//db.onlinewebfonts.com/t/01a78afe99ea694818028dcc7464ac4a.woff2") format("woff2"), 
